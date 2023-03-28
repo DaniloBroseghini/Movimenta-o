@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Movimento</title>
+
+
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            border-radius: 50%;
+            position: relative;
+
+            animation: movimento 5s infinite;
+            animation-direction: alternate;
+
+        }
+
+        @keyframes movimento {
+            from {
+                top: 0px
+            }
+
+            to {
+                top: 200px
+            }
+
+            from {
+                top: 200px
+            }
+
+            to {
+                top: 0px
+            }
+
+        }
+    </style>
+
+
+
+
+
+
+
+</head>
+
+<body>
+    <div class="box"> </div>
+</body>
+
+</html>
